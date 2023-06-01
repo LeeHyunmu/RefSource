@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{955BCBBE-48E4-4C46-83FA-9CE6ED5D2B62}</ProjectGuid>
+    <RootNamespace>Baseclass</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.30323.82</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>Debug\</OutDir>
+    <IntDir>Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>Release\</OutDir>
+    <IntDir>Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)Baseclass.tlb</TypeLibraryName>
+      <HeaderFileName>Baseclass.h</HeaderFileName>
+      <DllDataFileName />
+      <InterfaceIdentifierFileName>Baseclass_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>Baseclass_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0412</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)Baseclass.tlb</TypeLibraryName>
+      <HeaderFileName>Baseclass.h</HeaderFileName>
+      <DllDataFileName />
+      <InterfaceIdentifierFileName>Baseclass_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>Baseclass_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat />
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Adverts\AdvetsDlg.cpp" />
+    <ClCompile Include="AQDevice\AQCmdformat.cpp" />
+    <ClCompile Include="AQDevice\DeviceCmd.cpp" />
+    <ClCompile Include="Baseclass.cpp" />
+    <ClCompile Include="BaseClass\Synchronization.cpp" />
+    <ClCompile Include="CompleteDlg\CompleteDlg.cpp" />
+    <ClCompile Include="ContentsMall\ContentsMallDlg.cpp" />
+    <ClCompile Include="ContentsMall\ContentsMallPopDlg.cpp" />
+    <ClCompile Include="CouponPop\CouponDlg.cpp" />
+    <ClCompile Include="CouponPop\CouponPopDlg.cpp" />
+    <ClCompile Include="GdiDlg\MainGdiDlg.cpp" />
+    <ClCompile Include="GifWnd\PictureExWnd.cpp" />
+    <ClCompile Include="GlobalApi\GAFileStream.cpp" />
+    <ClCompile Include="GlobalApi\GARgn.cpp" />
+    <ClCompile Include="GlobalApi\GASound.cpp" />
+    <ClCompile Include="HelpClass\RegistHelp.cpp" />
+    <ClCompile Include="HelpClass\TypeChangeHelp.cpp" />
+    <ClCompile Include="ImageLoadApi\GdiPlusBitmap.cpp" />
+    <ClCompile Include="ImageLoadApi\ImageEx.cpp" />
+    <ClCompile Include="MainDlg.cpp" />
+    <ClCompile Include="NfcDataParser\AdvertRecord.cpp" />
+    <ClCompile Include="NfcDataParser\ContentsMallRecord.cpp" />
+    <ClCompile Include="NfcDataParser\CouponRecord.cpp" />
+    <ClCompile Include="NfcDataParser\NfcUriRecord.cpp" />
+    <ClCompile Include="ObjectCreate\ClassObject.cpp" />
+    <ClCompile Include="OutputDebug\TraceFileDebug.cpp" />
+    <ClCompile Include="OutputDebug\TraceWinDebug.cpp" />
+    <ClCompile Include="Serial\Serial.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Storage\AtlmapNfcData.cpp" />
+    <ClCompile Include="Storage\AtlmapStorageBitmap.cpp" />
+    <ClCompile Include="SubButton\SuperButton.cpp" />
+    <ClCompile Include="SubCombo\SuperCombo.cpp" />
+    <ClCompile Include="SubEdit\SuperEdit.cpp" />
+    <ClCompile Include="SubStatic\SuperStatic.cpp" />
+    <ClCompile Include="SubStatic\SuperStaticAnimation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Adverts\AdvertsDlg.h" />
+    <ClInclude Include="AQDevice\AQCmdformat.h" />
+    <ClInclude Include="AQDevice\AQDevice.h" />
+    <ClInclude Include="AQDevice\DeviceCmd.h" />
+    <ClInclude Include="BaseClass\BaseClass.h" />
+    <ClInclude Include="BaseClass\DialogSubclassImpl.h" />
+    <ClInclude Include="BaseClass\Synchronization.h" />
+    <ClInclude Include="BaseClass\Thread.h" />
+    <ClInclude Include="BaseClass\WindowSubclassImpl.h" />
+    <ClInclude Include="CompleteDlg\CompleteDlg.h" />
+    <ClInclude Include="ContentsMall\ContentsMall.h" />
+    <ClInclude Include="ContentsMall\ContentsMallPopDlg.h" />
+    <ClInclude Include="CouponPop\CouponDlg.h" />
+    <ClInclude Include="CouponPop\CouponPopDlg.h" />
+    <ClInclude Include="Explorer\ExplorerDlg.h" />
+    <ClInclude Include="GdiDlg\GdiDlg.h" />
+    <ClInclude Include="GdiDlg\MainGdiDlg.h" />
+    <ClInclude Include="GifWnd\GifWnd.h" />
+    <ClInclude Include="GifWnd\PictureExWnd.h" />
+    <ClInclude Include="GlobalApi\GAFileStream.h" />
+    <ClInclude Include="GlobalApi\GARgn.h" />
+    <ClInclude Include="GlobalApi\GASound.h" />
+    <ClInclude Include="GlobalApi\GlobalApi.h" />
+    <ClInclude Include="HelpClass\MyHelpClass.h" />
+    <ClInclude Include="HelpClass\RegistHelp.h" />
+    <ClInclude Include="HelpClass\TypeChangeHelp.h" />
+    <ClInclude Include="ImageLoadApi\GdiPlusBitmap.h" />
+    <ClInclude Include="ImageLoadApi\ImageEx.h" />
+    <ClInclude Include="ImageLoadApi\ImageLoadApi.h" />
+    <ClInclude Include="InfiniteGlobal\InfiniteGlobal.h" />
+    <ClInclude Include="interface\IMainGdiDlg.h" />
+    <ClInclude Include="interface\IMyObject.h" />
+    <ClInclude Include="interface\interface.h" />
+    <ClInclude Include="interface\IOutput.h" />
+    <ClInclude Include="MainDlg.h" />
+    <ClInclude Include="MultiMediaTimer\MultiMediaTimer.h" />
+    <ClInclude Include="NfcDataParser\AdvertRecord.h" />
+    <ClInclude Include="NfcDataParser\ContentsMallRecord.h" />
+    <ClInclude Include="NfcDataParser\CouponRecord.h" />
+    <ClInclude Include="NfcDataParser\NfcDataParser.h" />
+    <ClInclude Include="NfcDataParser\NfcUriRecord.h" />
+    <ClInclude Include="ObjectCreate\ClassObject.h" />
+    <ClInclude Include="ObjectCreate\ObjectCreate.h" />
+    <ClInclude Include="OutputDebug\OutputDebug.h" />
+    <ClInclude Include="OutputDebug\TraceFileDebug.h" />
+    <ClInclude Include="OutputDebug\TraceWinDebug.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Serial\Serial.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Storage\AtlmapNfcData.h" />
+    <ClInclude Include="Storage\AtlmapStorageBitmap.h" />
+    <ClInclude Include="Storage\Storage.h" />
+    <ClInclude Include="SubButton\SubButton.h" />
+    <ClInclude Include="SubButton\SuperButton.h" />
+    <ClInclude Include="SubButton\SuperButtonId.h" />
+    <ClInclude Include="SubCombo\SubCombo.h" />
+    <ClInclude Include="SubCombo\SuperCombo.h" />
+    <ClInclude Include="SubCombo\SuperComboId.h" />
+    <ClInclude Include="SubEdit\SubEdit.h" />
+    <ClInclude Include="SubEdit\SuperEdit.h" />
+    <ClInclude Include="SubEdit\SuperEditId.h" />
+    <ClInclude Include="SubStatic\SubStatic.h" />
+    <ClInclude Include="SubStatic\SuperStatic.h" />
+    <ClInclude Include="SubStatic\SuperStaticAnimation.h" />
+    <ClInclude Include="SubStatic\SuperStaticId.h" />
+    <ClInclude Include="TempletHelper\TempletHelper.h" />
+    <ClInclude Include="TempletHelper\TPMemory.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\AdvettsImage\01.png" />
+    <Image Include="res\AdvettsImage\02.png" />
+    <Image Include="res\Baseclass.ico" />
+    <Image Include="res\BtnImg\1.png" />
+    <Image Include="res\BtnMask\1.png" />
+    <Image Include="res\BtnMask\2.png" />
+    <Image Include="res\BtnMask\3.png" />
+    <Image Include="res\BtnMask\4.png" />
+    <Image Include="res\CompletImg\1.png" />
+    <Image Include="res\ContentsBackgrand\01.png" />
+    <Image Include="res\ContentsBackgrand\02.png" />
+    <Image Include="res\ContentsBackgrand\03.png" />
+    <Image Include="res\ContentsBackgrand\04.png" />
+    <Image Include="res\ContentsBackgrand\05.png" />
+    <Image Include="res\ContentsBackgrand\06.png" />
+    <Image Include="res\ContentsBackgrand\07.png" />
+    <Image Include="res\ContentsBackgrand\08.png" />
+    <Image Include="res\ContentsBackgrand\09.png" />
+    <Image Include="res\ContentsBackgrand\1.png" />
+    <Image Include="res\ContentsBackgrand\10.png" />
+    <Image Include="res\ContentsBackgrand\11.png" />
+    <Image Include="res\ContentsBackgrand\12.png" />
+    <Image Include="res\ContentsBackgrand\13.png" />
+    <Image Include="res\ContentsBackgrand\14.png" />
+    <Image Include="res\ContentsBackgrand\15.png" />
+    <Image Include="res\ContentsBackgrand\16.png" />
+    <Image Include="res\Contentsbig\01.png" />
+    <Image Include="res\Contentsbtn\1.png" />
+    <Image Include="res\Contentsbtn\2.png" />
+    <Image Include="res\Contentsbtn\3.png" />
+    <Image Include="res\Contentsbtn\4.png" />
+    <Image Include="res\ContentsGif\101.gif" />
+    <Image Include="res\Couponbig\01.png" />
+    <Image Include="res\Couponbig\02.png" />
+    <Image Include="res\Couponbig\03.png" />
+    <Image Include="res\Couponbig\04.png" />
+    <Image Include="res\Couponbig\05.png" />
+    <Image Include="res\Couponbig\06.png" />
+    <Image Include="res\Couponbig\07.png" />
+    <Image Include="res\Couponbig\08.png" />
+    <Image Include="res\Couponbtn\1.png" />
+    <Image Include="res\Couponbtn\2.png" />
+    <Image Include="res\Couponbtn\3.png" />
+    <Image Include="res\Couponbtn\4.png" />
+    <Image Include="res\Couponbtn\5.png" />
+    <Image Include="res\Couponbtn\6.png" />
+    <Image Include="res\Couponbtn\7.png" />
+    <Image Include="res\Couponbtn\8.png" />
+    <Image Include="res\Couponbtn\x.png" />
+    <Image Include="res\CouponGif\01.gif" />
+    <Image Include="res\CouponGif\hearts.gif" />
+    <Image Include="res\DlgMask\1.png" />
+    <Image Include="res\ImageFile\shin.jpg" />
+    <Image Include="res\Mainback\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Baseclass.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\cursor\hand.cur" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

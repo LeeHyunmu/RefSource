@@ -1,0 +1,308 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "atlres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAINDLG DIALOGEX 0, 0, 187, 98
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+END
+
+IDD_COUPONPOP DIALOGEX 0, 0, 244, 142
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_COMPLETDLG DIALOGEX 0, 0, 316, 180
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_CONTENTSMALL DIALOGEX 0, 0, 244, 142
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_ADVERTS DIALOGEX 0, 0, 244, 142
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_MAINDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_COUPONPOP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 237
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 135
+    END
+
+    IDD_COMPLETDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 173
+    END
+
+    IDD_CONTENTSMALL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 237
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 135
+    END
+
+    IDD_ADVERTS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 237
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 135
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_CPPNG01             PNG                     "res\\Couponbtn\\1.png"
+IDB_CPPNG02             PNG                     "res\\Couponbtn\\2.png"
+IDB_CPPNG03             PNG                     "res\\Couponbtn\\3.png"
+IDB_CPPNG04             PNG                     "res\\Couponbtn\\4.png"
+IDB_CPPNG05             PNG                     "res\\Couponbtn\\5.png"
+IDB_CPPNG06             PNG                     "res\\Couponbtn\\6.png"
+IDB_CPPNGX              PNG                     "res\\Couponbtn\\x.png"
+IDB_CPPNG07             PNG                     "res\\Couponbtn\\7.png"
+IDB_CPPNG08             PNG                     "res\\Couponbtn\\8.png"
+IDB_COMPLET             PNG                     "res\\CompletImg\\1.png"
+IDB_BTNMASK_1           PNG                     "res\\BtnMask\\1.png"
+IDB_DLGMASK_1           PNG                     "res\\DlgMask\\1.png"
+IDB_CONTENTSBTN1        PNG                     "res\\Contentsbtn\\1.png"
+IDB_CONTENTSBTN2        PNG                     "res\\Contentsbtn\\2.png"
+IDB_BTNMASK_2           PNG                     "res\\BtnMask\\2.png"
+IDB_CONTENTSBACKGROUND16 PNG                     "res\\ContentsBackgrand\\16.png"
+IDB_CONTENTSBACKGROUND01 PNG                     "res\\ContentsBackgrand\\01.png"
+IDB_CONTENTSBACKGROUND02 PNG                     "res\\ContentsBackgrand\\02.png"
+IDB_CONTENTSBACKGROUND03 PNG                     "res\\ContentsBackgrand\\03.png"
+IDB_CONTENTSBACKGROUND04 PNG                     "res\\ContentsBackgrand\\04.png"
+IDB_CONTENTSBACKGROUND05 PNG                     "res\\ContentsBackgrand\\05.png"
+IDB_CONTENTSBACKGROUND06 PNG                     "res\\ContentsBackgrand\\06.png"
+IDB_CONTENTSBACKGROUND07 PNG                     "res\\ContentsBackgrand\\07.png"
+IDB_CONTENTSBACKGROUND08 PNG                     "res\\ContentsBackgrand\\08.png"
+IDB_CONTENTSBACKGROUND09 PNG                     "res\\ContentsBackgrand\\09.png"
+IDB_CONTENTSBACKGROUND10 PNG                     "res\\ContentsBackgrand\\10.png"
+IDB_CONTENTSBACKGROUND11 PNG                     "res\\ContentsBackgrand\\11.png"
+IDB_CONTENTSBACKGROUND12 PNG                     "res\\ContentsBackgrand\\12.png"
+IDB_CONTENTSBACKGROUND13 PNG                     "res\\ContentsBackgrand\\13.png"
+IDB_CONTENTSBACKGROUND14 PNG                     "res\\ContentsBackgrand\\14.png"
+IDB_CONTENTSBACKGROUND15 PNG                     "res\\ContentsBackgrand\\15.png"
+IDB_BTNMASK_3           PNG                     "res\\BtnMask\\3.png"
+IDB_NEXTBTN1            PNG                     "res\\BtnImg\\1.png"
+IDB_BTNMASK_4           PNG                     "res\\BtnMask\\4.png"
+IDB_CONTENTSBTN3        PNG                     "res\\Contentsbtn\\3.png"
+IDB_CONTENTSBTN4        PNG                     "res\\Contentsbtn\\4.png"
+IDB_ADVERTS01           PNG                     "res\\AdvettsImage\\01.png"
+IDB_ADVERTS02           PNG                     "res\\AdvettsImage\\02.png"
+IDB_MAINBACKGRAND1      PNG                     "res\\Mainback\\1.png"
+IDB_COUPONBIG01         PNG                     "res\\Couponbig\\01.png"
+IDB_COUPONBIG02         PNG                     "res\\Couponbig\\02.png"
+IDB_COUPONBIG03         PNG                     "res\\Couponbig\\03.png"
+IDB_COUPONBIG04         PNG                     "res\\Couponbig\\04.png"
+IDB_COUPONBIG05         PNG                     "res\\Couponbig\\05.png"
+IDB_COUPONBIG06         PNG                     "res\\Couponbig\\06.png"
+IDB_COUPONBIG07         PNG                     "res\\Couponbig\\07.png"
+IDB_COUPONBIG08         PNG                     "res\\Couponbig\\08.png"
+IDB_CONTENTSBIG01       PNG                     "res\\Contentsbig\\01.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// JPG
+//
+
+IDB_JPG1                JPG                     "res\\ImageFile\\shin.jpg"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// GIF
+//
+
+IDR_GIF01               GIF                     "res\\CouponGif\\01.gif"
+IDR_GIF101              GIF                     "res\\ContentsGif\\101.gif"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR1             CURSOR                  "res\\cursor\\hand.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "Baseclass"
+END
+
+#endif    // 한국어 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 영어(미국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""atlres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Baseclass.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileDescription", "Baseclass Module"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "Baseclass"
+            VALUE "LegalCopyright", "Copyright 2010"
+            VALUE "OriginalFilename", "Baseclass.exe"
+            VALUE "ProductName", "Baseclass Module"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // 영어(미국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+

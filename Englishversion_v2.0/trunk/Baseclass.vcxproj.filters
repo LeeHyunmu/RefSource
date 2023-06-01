@@ -1,0 +1,756 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4af251cc-be69-4752-8322-b5b5f9633ea9}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ee945a27-938c-4dc5-baed-0ea09f1ea089}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{ca53c4c3-ff1d-448b-acd7-f1cbd58f7c8b}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\ImageFile">
+      <UniqueIdentifier>{4b9f91ae-e4cd-4474-9de6-af80567b83ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Couponbtn">
+      <UniqueIdentifier>{29065e92-7c7d-4c45-8ce0-8544e518637f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\CompletImg">
+      <UniqueIdentifier>{77b45999-2422-4a9a-bcca-8a425cc1d71e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\BtnMask">
+      <UniqueIdentifier>{d07da25c-61f2-4ea5-ae29-d4e86a08cb40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\CouponGif">
+      <UniqueIdentifier>{7b305025-1b19-47df-9797-5df1346690dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\DlgMask">
+      <UniqueIdentifier>{ba610fe3-be0f-483b-8ca6-d295a98d1ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\ContentsGif">
+      <UniqueIdentifier>{eca998cb-587e-4649-ad28-ea23bb7f7cb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Contentsbtn">
+      <UniqueIdentifier>{21d96e19-47bb-4d31-b72f-4788dc1c648f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\ContentsBackgrand">
+      <UniqueIdentifier>{15264518-8454-43be-8d78-db83b983238e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\BtnImg">
+      <UniqueIdentifier>{239b261c-ff38-4005-a117-adbaddb672c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\AdvertsImage">
+      <UniqueIdentifier>{b58dd6b5-8ff9-4d40-b395-2ae46b668062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Mainback">
+      <UniqueIdentifier>{be470cb0-0418-445d-afcd-7561d3352e7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Contentsbig">
+      <UniqueIdentifier>{e28ade28-4dba-41a6-a7fd-f04e0204fb62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Couponbig">
+      <UniqueIdentifier>{01bdaefd-012d-4c5e-9b72-70d86dcf51df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseClass">
+      <UniqueIdentifier>{7fbf2f54-4a3c-4b56-85c7-be69905a382a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseClass\Header Files">
+      <UniqueIdentifier>{0bfe32fe-a74b-473f-bb8a-7ea7fdfe088f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseClass\Source Files">
+      <UniqueIdentifier>{39bf412c-d32a-4333-b86a-253308a2b4be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GlobalApi">
+      <UniqueIdentifier>{92c6a7cd-c00e-419f-8188-5e574b6f9ec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GlobalApi\Header Filse">
+      <UniqueIdentifier>{0dea2f0c-7622-414e-b7ad-38e6a55f620c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GlobalApi\Source Files">
+      <UniqueIdentifier>{a6d91596-2f1a-477b-a455-9ee5700a6f7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InfiniteGlobal">
+      <UniqueIdentifier>{6969fe04-a5f9-4b65-8739-e371035cf149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InfiniteGlobal\Header Files">
+      <UniqueIdentifier>{9717bd36-6fd5-4398-8de2-03fcede863ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InfiniteGlobal\Source Files">
+      <UniqueIdentifier>{73a4fa86-0b85-43c5-b58a-a8f42778d882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface">
+      <UniqueIdentifier>{212f8920-1c7c-4377-8be4-342254a7e470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface\Header Files">
+      <UniqueIdentifier>{c9291f35-68bd-4f3c-a964-ffc5828502eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectCreate">
+      <UniqueIdentifier>{a7f8e529-86f4-4d21-a4d6-b905ad35e0af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectCreate\Header Files">
+      <UniqueIdentifier>{c5a1cbd2-31ab-489e-b21d-7998667c4016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectCreate\Source Files">
+      <UniqueIdentifier>{92c76354-d964-44bc-9640-8a74762a03e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OutputDebug">
+      <UniqueIdentifier>{11636c1c-6ae7-43fc-bf49-9aa7703e9311}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OutputDebug\Header Files">
+      <UniqueIdentifier>{5438f60e-1528-43c1-b55b-515c2430772e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OutputDebug\Source Files">
+      <UniqueIdentifier>{56fd7afb-16ad-4720-ac4b-d289334c9c36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GdiDlg">
+      <UniqueIdentifier>{52fe5e51-36c4-4a65-8373-f2bdcdba47c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GdiDlg\Header Files">
+      <UniqueIdentifier>{2ad3d646-7ab8-45e7-8398-87bfbc25b3b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GdiDlg\Source Files">
+      <UniqueIdentifier>{931f0f23-db5d-49f6-81a7-0a95a757f6b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubButton">
+      <UniqueIdentifier>{73a89bc9-52a8-498f-8b47-ed68817b5d66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubButton\Header Files">
+      <UniqueIdentifier>{72ccdebb-6b57-47cc-a254-14c8219e6856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubButton\Source Files">
+      <UniqueIdentifier>{e25ecca0-2079-432d-8cac-f086acffef1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageLoadApi">
+      <UniqueIdentifier>{d1aa5d26-a7d7-4f78-b16d-c1b388bb4960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageLoadApi\Header Files">
+      <UniqueIdentifier>{f5c67523-7354-4dd5-8dbf-fd5687eb793a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageLoadApi\Source Files">
+      <UniqueIdentifier>{16ad4bdc-ef4f-48b1-b50c-7a6542d84533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubStatic">
+      <UniqueIdentifier>{1707e732-5fee-4172-97da-4653e0fae887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubStatic\Header Files">
+      <UniqueIdentifier>{da230da8-f78c-4203-8730-fa3f279ed772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubStatic\Source Files">
+      <UniqueIdentifier>{526550c0-5262-4a80-9baf-714fee5aa585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TempletHelper">
+      <UniqueIdentifier>{c1b600d3-8430-4728-af20-b43de8e77355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TempletHelper\Header Files">
+      <UniqueIdentifier>{a00cc2b5-8c8d-437e-9321-7eabd1127bda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Explorer">
+      <UniqueIdentifier>{e1f8e87f-fee0-42c4-97d7-a97fbf59454f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Explorer\Header Files">
+      <UniqueIdentifier>{440b7770-729f-4c27-9254-5accfc81d2ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CouponPop">
+      <UniqueIdentifier>{d319117d-8a1d-4e1b-9f81-b5bff08dc4bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CouponPop\Header Files">
+      <UniqueIdentifier>{d5d9e1ac-4251-4bc0-b6e5-85913299ca3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CouponPop\Source Files">
+      <UniqueIdentifier>{77c6e830-c253-4cb5-927a-b61b0aa50223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MultiMediaTimer">
+      <UniqueIdentifier>{4ca9ff62-2fa8-4fa2-aa83-f8d0591ded82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serial">
+      <UniqueIdentifier>{212d3b5c-ccf4-413f-995b-df85267d8421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serial\Header Files">
+      <UniqueIdentifier>{817abdf8-be8d-4ba0-bc25-94724f3cc6d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serial\Source Files">
+      <UniqueIdentifier>{cd23c125-6102-4d59-9b3e-c8f7b2521f31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HelpClass">
+      <UniqueIdentifier>{584a2d39-901f-4642-a0d4-db69ced632af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HelpClass\Header Files">
+      <UniqueIdentifier>{00e53081-8cb6-45ec-bfd6-6f2db5c0c3e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HelpClass\Source Files">
+      <UniqueIdentifier>{d192235a-c64f-47cc-8c4b-50fb665b21de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GifWnd">
+      <UniqueIdentifier>{f3c32c46-3a61-4629-8b5a-80fb5ec6af2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GifWnd\Header Files">
+      <UniqueIdentifier>{18d23ceb-7596-442c-be1d-4f9393eedde7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GifWnd\Source Files">
+      <UniqueIdentifier>{8d4a7aab-7bda-40b7-a138-70d051c763fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AQDevice">
+      <UniqueIdentifier>{33891346-356b-4c49-a64b-cf49bd956efe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AQDevice\Header Files">
+      <UniqueIdentifier>{d3b651d1-cb2e-491a-81c1-ff7937fc21e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AQDevice\Source Files">
+      <UniqueIdentifier>{859f2334-1109-4a19-9d45-d1f6074719c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NfcDataParser">
+      <UniqueIdentifier>{f920a4a1-4006-4ee8-9c1f-8c713f003d9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NfcDataParser\Header Files">
+      <UniqueIdentifier>{8d01f451-1fd9-41d7-bc17-c87d7321b9da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NfcDataParser\Source Files">
+      <UniqueIdentifier>{3c6f6be4-8620-4bda-8038-6ac768cdae9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Storage">
+      <UniqueIdentifier>{0422e7d3-f7aa-450f-80a3-1f1895892c20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Storage\Header Files">
+      <UniqueIdentifier>{d3808c9b-652d-49cd-b723-ee4838c2cee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Storage\Source Files">
+      <UniqueIdentifier>{175f979d-0cc7-4dd9-b860-7ecf33199e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubCombo">
+      <UniqueIdentifier>{0f917654-7152-484f-a8e3-a274e67578fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubCombo\Header Files">
+      <UniqueIdentifier>{63846a09-b79c-405a-97b5-343ccc3947ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubCombo\Source Files">
+      <UniqueIdentifier>{22bb069b-ad24-4df4-be9a-b0cc24f71fec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubEdit">
+      <UniqueIdentifier>{4b2648de-2860-447a-b1a4-b48672237b0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubEdit\Header Files">
+      <UniqueIdentifier>{7ccc9075-8930-476b-9baa-c7ddaae3a988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubEdit\Source Files">
+      <UniqueIdentifier>{8e3ebe92-6267-4056-973b-7dec1b5b9924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentsMall">
+      <UniqueIdentifier>{bf948c8c-574c-4800-9fc4-0c9187aa25af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentsMall\Header Files">
+      <UniqueIdentifier>{d7fe040f-bdec-4a05-b3f6-6f3eb4858b94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContentsMall\Source Files">
+      <UniqueIdentifier>{f4711e71-f17a-4b3b-8fb6-fb5803c8e8d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adverts">
+      <UniqueIdentifier>{5c57855f-3c80-4332-98fb-a2b4379125b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adverts\Header Files">
+      <UniqueIdentifier>{36f8bd9f-5593-4341-ac3c-eafe0a538e0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adverts\Source Files">
+      <UniqueIdentifier>{0fd17f74-23af-4649-9416-749384e0bc1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CompleteDlg">
+      <UniqueIdentifier>{730588da-3608-4803-845a-24facd74d269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CompleteDlg\Header Files">
+      <UniqueIdentifier>{08fdfc31-550e-4baf-ad45-270368539e18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CompleteDlg\Source Files">
+      <UniqueIdentifier>{e8819b86-5af3-4b29-a0c8-f29e136c8bc0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Baseclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseClass\Synchronization.cpp">
+      <Filter>BaseClass\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalApi\GAFileStream.cpp">
+      <Filter>GlobalApi\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalApi\GARgn.cpp">
+      <Filter>GlobalApi\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalApi\GASound.cpp">
+      <Filter>GlobalApi\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectCreate\ClassObject.cpp">
+      <Filter>ObjectCreate\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputDebug\TraceFileDebug.cpp">
+      <Filter>OutputDebug\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputDebug\TraceWinDebug.cpp">
+      <Filter>OutputDebug\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GdiDlg\MainGdiDlg.cpp">
+      <Filter>GdiDlg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SubButton\SuperButton.cpp">
+      <Filter>SubButton\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLoadApi\GdiPlusBitmap.cpp">
+      <Filter>ImageLoadApi\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLoadApi\ImageEx.cpp">
+      <Filter>ImageLoadApi\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SubStatic\SuperStatic.cpp">
+      <Filter>SubStatic\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SubStatic\SuperStaticAnimation.cpp">
+      <Filter>SubStatic\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CouponPop\CouponDlg.cpp">
+      <Filter>CouponPop\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CouponPop\CouponPopDlg.cpp">
+      <Filter>CouponPop\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Serial\Serial.cpp">
+      <Filter>Serial\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpClass\RegistHelp.cpp">
+      <Filter>HelpClass\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpClass\TypeChangeHelp.cpp">
+      <Filter>HelpClass\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GifWnd\PictureExWnd.cpp">
+      <Filter>GifWnd\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AQDevice\AQCmdformat.cpp">
+      <Filter>AQDevice\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AQDevice\DeviceCmd.cpp">
+      <Filter>AQDevice\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NfcDataParser\AdvertRecord.cpp">
+      <Filter>NfcDataParser\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NfcDataParser\ContentsMallRecord.cpp">
+      <Filter>NfcDataParser\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NfcDataParser\CouponRecord.cpp">
+      <Filter>NfcDataParser\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NfcDataParser\NfcUriRecord.cpp">
+      <Filter>NfcDataParser\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Storage\AtlmapNfcData.cpp">
+      <Filter>Storage\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Storage\AtlmapStorageBitmap.cpp">
+      <Filter>Storage\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SubCombo\SuperCombo.cpp">
+      <Filter>SubCombo\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SubEdit\SuperEdit.cpp">
+      <Filter>SubEdit\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ContentsMall\ContentsMallDlg.cpp">
+      <Filter>ContentsMall\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ContentsMall\ContentsMallPopDlg.cpp">
+      <Filter>ContentsMall\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Adverts\AdvetsDlg.cpp">
+      <Filter>Adverts\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CompleteDlg\CompleteDlg.cpp">
+      <Filter>CompleteDlg\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseClass\BaseClass.h">
+      <Filter>BaseClass\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseClass\DialogSubclassImpl.h">
+      <Filter>BaseClass\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseClass\Synchronization.h">
+      <Filter>BaseClass\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseClass\Thread.h">
+      <Filter>BaseClass\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseClass\WindowSubclassImpl.h">
+      <Filter>BaseClass\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalApi\GAFileStream.h">
+      <Filter>GlobalApi\Header Filse</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalApi\GARgn.h">
+      <Filter>GlobalApi\Header Filse</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalApi\GASound.h">
+      <Filter>GlobalApi\Header Filse</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalApi\GlobalApi.h">
+      <Filter>GlobalApi\Header Filse</Filter>
+    </ClInclude>
+    <ClInclude Include="InfiniteGlobal\InfiniteGlobal.h">
+      <Filter>InfiniteGlobal\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\IMainGdiDlg.h">
+      <Filter>interface\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\IMyObject.h">
+      <Filter>interface\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\interface.h">
+      <Filter>interface\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface\IOutput.h">
+      <Filter>interface\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectCreate\ClassObject.h">
+      <Filter>ObjectCreate\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectCreate\ObjectCreate.h">
+      <Filter>ObjectCreate\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputDebug\OutputDebug.h">
+      <Filter>OutputDebug\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputDebug\TraceFileDebug.h">
+      <Filter>OutputDebug\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputDebug\TraceWinDebug.h">
+      <Filter>OutputDebug\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GdiDlg\GdiDlg.h">
+      <Filter>GdiDlg\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GdiDlg\MainGdiDlg.h">
+      <Filter>GdiDlg\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SubButton\SubButton.h">
+      <Filter>SubButton\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SubButton\SuperButton.h">
+      <Filter>SubButton\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SubButton\SuperButtonId.h">
+      <Filter>SubButton\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLoadApi\GdiPlusBitmap.h">
+      <Filter>ImageLoadApi\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLoadApi\ImageEx.h">
+      <Filter>ImageLoadApi\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLoadApi\ImageLoadApi.h">
+      <Filter>ImageLoadApi\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SubStatic\SubStatic.h">
+      <Filter>SubStatic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SubStatic\SuperStatic.h">
+      <Filter>SubStatic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SubStatic\SuperStaticAnimation.h">
+      <Filter>SubStatic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SubStatic\SuperStaticId.h">
+      <Filter>SubStatic\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TempletHelper\TempletHelper.h">
+      <Filter>TempletHelper\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TempletHelper\TPMemory.h">
+      <Filter>TempletHelper\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Explorer\ExplorerDlg.h">
+      <Filter>Explorer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CouponPop\CouponDlg.h">
+      <Filter>CouponPop\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CouponPop\CouponPopDlg.h">
+      <Filter>CouponPop\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiMediaTimer\MultiMediaTimer.h">
+      <Filter>MultiMediaTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="Serial\Serial.h">
+      <Filter>Serial\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpClass\MyHelpClass.h">
+      <Filter>HelpClass\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpClass\RegistHelp.h">
+      <Filter>HelpClass\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpClass\TypeChangeHelp.h">
+      <Filter>HelpClass\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GifWnd\GifWnd.h">
+      <Filter>GifWnd\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GifWnd\PictureExWnd.h">
+      <Filter>GifWnd\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AQDevice\AQCmdformat.h">
+      <Filter>AQDevice\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AQDevice\AQDevice.h">
+      <Filter>AQDevice\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AQDevice\DeviceCmd.h">
+      <Filter>AQDevice\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NfcDataParser\AdvertRecord.h">
+      <Filter>NfcDataParser\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NfcDataParser\ContentsMallRecord.h">
+      <Filter>NfcDataParser\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NfcDataParser\CouponRecord.h">
+      <Filter>NfcDataParser\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NfcDataParser\NfcDataParser.h">
+      <Filter>NfcDataParser\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NfcDataParser\NfcUriRecord.h">
+      <Filter>NfcDataParser\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Storage\AtlmapNfcData.h">
+      <Filter>Storage\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Storage\AtlmapStorageBitmap.h">
+      <Filter>Storage\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Storage\Storage.h">
+      <Filter>Storage\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SubCombo\SubCombo.h">
+      <Filter>SubCombo\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SubCombo\SuperCombo.h">
+      <Filter>SubCombo\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SubCombo\SuperComboId.h">
+      <Filter>SubCombo\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SubEdit\SubEdit.h">
+      <Filter>SubEdit\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SubEdit\SuperEdit.h">
+      <Filter>SubEdit\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SubEdit\SuperEditId.h">
+      <Filter>SubEdit\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ContentsMall\ContentsMall.h">
+      <Filter>ContentsMall\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ContentsMall\ContentsMallPopDlg.h">
+      <Filter>ContentsMall\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Adverts\AdvertsDlg.h">
+      <Filter>Adverts\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CompleteDlg\CompleteDlg.h">
+      <Filter>CompleteDlg\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Baseclass.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ImageFile\shin.jpg">
+      <Filter>Resource Files\ImageFile</Filter>
+    </Image>
+    <Image Include="res\Couponbtn\1.png">
+      <Filter>Resource Files\Couponbtn</Filter>
+    </Image>
+    <Image Include="res\Couponbtn\2.png">
+      <Filter>Resource Files\Couponbtn</Filter>
+    </Image>
+    <Image Include="res\Couponbtn\3.png">
+      <Filter>Resource Files\Couponbtn</Filter>
+    </Image>
+    <Image Include="res\Couponbtn\4.png">
+      <Filter>Resource Files\Couponbtn</Filter>
+    </Image>
+    <Image Include="res\Couponbtn\5.png">
+      <Filter>Resource Files\Couponbtn</Filter>
+    </Image>
+    <Image Include="res\Couponbtn\6.png">
+      <Filter>Resource Files\Couponbtn</Filter>
+    </Image>
+    <Image Include="res\Couponbtn\7.png">
+      <Filter>Resource Files\Couponbtn</Filter>
+    </Image>
+    <Image Include="res\Couponbtn\8.png">
+      <Filter>Resource Files\Couponbtn</Filter>
+    </Image>
+    <Image Include="res\Couponbtn\x.png">
+      <Filter>Resource Files\Couponbtn</Filter>
+    </Image>
+    <Image Include="res\CompletImg\1.png">
+      <Filter>Resource Files\CompletImg</Filter>
+    </Image>
+    <Image Include="res\BtnMask\1.png">
+      <Filter>Resource Files\BtnMask</Filter>
+    </Image>
+    <Image Include="res\BtnMask\2.png">
+      <Filter>Resource Files\BtnMask</Filter>
+    </Image>
+    <Image Include="res\BtnMask\3.png">
+      <Filter>Resource Files\BtnMask</Filter>
+    </Image>
+    <Image Include="res\BtnMask\4.png">
+      <Filter>Resource Files\BtnMask</Filter>
+    </Image>
+    <Image Include="res\CouponGif\01.gif">
+      <Filter>Resource Files\CouponGif</Filter>
+    </Image>
+    <Image Include="res\CouponGif\hearts.gif">
+      <Filter>Resource Files\CouponGif</Filter>
+    </Image>
+    <Image Include="res\DlgMask\1.png">
+      <Filter>Resource Files\DlgMask</Filter>
+    </Image>
+    <Image Include="res\ContentsGif\101.gif">
+      <Filter>Resource Files\ContentsGif</Filter>
+    </Image>
+    <Image Include="res\Contentsbtn\1.png">
+      <Filter>Resource Files\Contentsbtn</Filter>
+    </Image>
+    <Image Include="res\Contentsbtn\2.png">
+      <Filter>Resource Files\Contentsbtn</Filter>
+    </Image>
+    <Image Include="res\Contentsbtn\3.png">
+      <Filter>Resource Files\Contentsbtn</Filter>
+    </Image>
+    <Image Include="res\Contentsbtn\4.png">
+      <Filter>Resource Files\Contentsbtn</Filter>
+    </Image>
+    <Image Include="res\ContentsBackgrand\01.png">
+      <Filter>Resource Files\ContentsBackgrand</Filter>
+    </Image>
+    <Image Include="res\ContentsBackgrand\02.png">
+      <Filter>Resource Files\ContentsBackgrand</Filter>
+    </Image>
+    <Image Include="res\ContentsBackgrand\03.png">
+      <Filter>Resource Files\ContentsBackgrand</Filter>
+    </Image>
+    <Image Include="res\ContentsBackgrand\04.png">
+      <Filter>Resource Files\ContentsBackgrand</Filter>
+    </Image>
+    <Image Include="res\ContentsBackgrand\05.png">
+      <Filter>Resource Files\ContentsBackgrand</Filter>
+    </Image>
+    <Image Include="res\ContentsBackgrand\06.png">
+      <Filter>Resource Files\ContentsBackgrand</Filter>
+    </Image>
+    <Image Include="res\ContentsBackgrand\07.png">
+      <Filter>Resource Files\ContentsBackgrand</Filter>
+    </Image>
+    <Image Include="res\ContentsBackgrand\08.png">
+      <Filter>Resource Files\ContentsBackgrand</Filter>
+    </Image>
+    <Image Include="res\ContentsBackgrand\09.png">
+      <Filter>Resource Files\ContentsBackgrand</Filter>
+    </Image>
+    <Image Include="res\ContentsBackgrand\1.png">
+      <Filter>Resource Files\ContentsBackgrand</Filter>
+    </Image>
+    <Image Include="res\ContentsBackgrand\10.png">
+      <Filter>Resource Files\ContentsBackgrand</Filter>
+    </Image>
+    <Image Include="res\ContentsBackgrand\11.png">
+      <Filter>Resource Files\ContentsBackgrand</Filter>
+    </Image>
+    <Image Include="res\ContentsBackgrand\12.png">
+      <Filter>Resource Files\ContentsBackgrand</Filter>
+    </Image>
+    <Image Include="res\ContentsBackgrand\13.png">
+      <Filter>Resource Files\ContentsBackgrand</Filter>
+    </Image>
+    <Image Include="res\ContentsBackgrand\14.png">
+      <Filter>Resource Files\ContentsBackgrand</Filter>
+    </Image>
+    <Image Include="res\ContentsBackgrand\15.png">
+      <Filter>Resource Files\ContentsBackgrand</Filter>
+    </Image>
+    <Image Include="res\ContentsBackgrand\16.png">
+      <Filter>Resource Files\ContentsBackgrand</Filter>
+    </Image>
+    <Image Include="res\BtnImg\1.png">
+      <Filter>Resource Files\BtnImg</Filter>
+    </Image>
+    <Image Include="res\AdvettsImage\01.png">
+      <Filter>Resource Files\AdvertsImage</Filter>
+    </Image>
+    <Image Include="res\AdvettsImage\02.png">
+      <Filter>Resource Files\AdvertsImage</Filter>
+    </Image>
+    <Image Include="res\Mainback\1.png">
+      <Filter>Resource Files\Mainback</Filter>
+    </Image>
+    <Image Include="res\Contentsbig\01.png">
+      <Filter>Resource Files\Contentsbig</Filter>
+    </Image>
+    <Image Include="res\Couponbig\01.png">
+      <Filter>Resource Files\Couponbig</Filter>
+    </Image>
+    <Image Include="res\Couponbig\02.png">
+      <Filter>Resource Files\Couponbig</Filter>
+    </Image>
+    <Image Include="res\Couponbig\03.png">
+      <Filter>Resource Files\Couponbig</Filter>
+    </Image>
+    <Image Include="res\Couponbig\04.png">
+      <Filter>Resource Files\Couponbig</Filter>
+    </Image>
+    <Image Include="res\Couponbig\05.png">
+      <Filter>Resource Files\Couponbig</Filter>
+    </Image>
+    <Image Include="res\Couponbig\06.png">
+      <Filter>Resource Files\Couponbig</Filter>
+    </Image>
+    <Image Include="res\Couponbig\07.png">
+      <Filter>Resource Files\Couponbig</Filter>
+    </Image>
+    <Image Include="res\Couponbig\08.png">
+      <Filter>Resource Files\Couponbig</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Baseclass.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\cursor\hand.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
