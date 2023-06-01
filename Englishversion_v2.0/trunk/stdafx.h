@@ -37,6 +37,7 @@ extern CAppModule _Module;
 #include <vector>
 #include <deque>
 #include <queue>
+#include <string>
 #include <algorithm>
 //이미지 관련 클래스
 #include <atlimage.h> //CImage Class 사용

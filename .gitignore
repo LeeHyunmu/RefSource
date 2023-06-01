@@ -1,0 +1,40 @@
+# : comments
+
+# no .a files
+*.a
+*.zip
+*.aps
+*.uml
+*~ml
+*.obj
+NotchingGradeInsp/.editorconfig
+NotchingGradeInsp/Default.ini
+
+# but do track lib.a, even though you're ignoring .a files above
+!lib.a
+
+# only ignore the TODO file in the current directory, not subdir/TODO
+/TODO
+
+# ignore all files in the build/ directory
+build/
+NotchingGradeInsp_NotUseDLL/x64/Debug/
+NotchingGradeInsp_NotUseDLL_Test/
+NotchingGradeInsp_NotUseDLL/.vs/
+NotchingGradeInsp_NotUseDLL/Data/INDEX/
+NotchingGradeInsp_NotUseDLL/마도\ HLI\ #1-1\ Data\ Folder/
+NotchingGradeInsp_NotUseDLL_Test/
+NotchingGradeInsp/.vs/
+NotchingGradeInsp/Data/INDEX/
+NotchingGradeInsp/마도\ HLI\ #1-1\ Data\ Folder/
+NotchingGradeInsp/Data/INDEX/
+NotchingGradeInsp_ImageSample/
+NotchingGradeInsp/x64/Debug/
+NotchingGradeInsp/x64/Release/
+NotchingGradeInsp/NotchingLog/
+
+# ignore doc/notes.txt, but not doc/server/arch.txt
+doc/*.txt
+
+# ignore all .pdf files in the doc/ directory
+doc/**/*.pdf
