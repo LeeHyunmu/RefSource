@@ -1,0 +1,20 @@
+// VMManagerServerDlg.idl : IDL source for VMManagerServerDlg.exe
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (VMManagerServerDlg.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(393260CF-7C5A-4D98-A3E2-4D2F4C2CCD6D),
+	version(1.0),
+	helpstring("VMManagerServerDlg 1.0 Type Library")
+]
+library VMManagerServerDlgLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+};

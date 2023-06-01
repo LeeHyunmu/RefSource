@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JapanTest", "JapanTest.vcproj", "{D40D5B56-1BDF-4E54-831D-EF529E29B832}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|DUALISDK (ARMV4I) = Debug|DUALISDK (ARMV4I)
+		Release|DUALISDK (ARMV4I) = Release|DUALISDK (ARMV4I)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D40D5B56-1BDF-4E54-831D-EF529E29B832}.Debug|DUALISDK (ARMV4I).ActiveCfg = Debug|DUALISDK (ARMV4I)
+		{D40D5B56-1BDF-4E54-831D-EF529E29B832}.Debug|DUALISDK (ARMV4I).Build.0 = Debug|DUALISDK (ARMV4I)
+		{D40D5B56-1BDF-4E54-831D-EF529E29B832}.Debug|DUALISDK (ARMV4I).Deploy.0 = Debug|DUALISDK (ARMV4I)
+		{D40D5B56-1BDF-4E54-831D-EF529E29B832}.Release|DUALISDK (ARMV4I).ActiveCfg = Release|DUALISDK (ARMV4I)
+		{D40D5B56-1BDF-4E54-831D-EF529E29B832}.Release|DUALISDK (ARMV4I).Build.0 = Release|DUALISDK (ARMV4I)
+		{D40D5B56-1BDF-4E54-831D-EF529E29B832}.Release|DUALISDK (ARMV4I).Deploy.0 = Release|DUALISDK (ARMV4I)
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

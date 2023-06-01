@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JapanWater", "JapanWater.vcproj", "{2E63019A-E59D-458F-8D5D-C91B608E452D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|DUALISDK (ARMV4I) = Debug|DUALISDK (ARMV4I)
+		Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I) = Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)
+		Release|DUALISDK (ARMV4I) = Release|DUALISDK (ARMV4I)
+		Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I) = Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E63019A-E59D-458F-8D5D-C91B608E452D}.Debug|DUALISDK (ARMV4I).ActiveCfg = Debug|DUALISDK (ARMV4I)
+		{2E63019A-E59D-458F-8D5D-C91B608E452D}.Debug|DUALISDK (ARMV4I).Build.0 = Debug|DUALISDK (ARMV4I)
+		{2E63019A-E59D-458F-8D5D-C91B608E452D}.Debug|DUALISDK (ARMV4I).Deploy.0 = Debug|DUALISDK (ARMV4I)
+		{2E63019A-E59D-458F-8D5D-C91B608E452D}.Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I).ActiveCfg = Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)
+		{2E63019A-E59D-458F-8D5D-C91B608E452D}.Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I).Build.0 = Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)
+		{2E63019A-E59D-458F-8D5D-C91B608E452D}.Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I).Deploy.0 = Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)
+		{2E63019A-E59D-458F-8D5D-C91B608E452D}.Release|DUALISDK (ARMV4I).ActiveCfg = Release|DUALISDK (ARMV4I)
+		{2E63019A-E59D-458F-8D5D-C91B608E452D}.Release|DUALISDK (ARMV4I).Build.0 = Release|DUALISDK (ARMV4I)
+		{2E63019A-E59D-458F-8D5D-C91B608E452D}.Release|DUALISDK (ARMV4I).Deploy.0 = Release|DUALISDK (ARMV4I)
+		{2E63019A-E59D-458F-8D5D-C91B608E452D}.Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I).ActiveCfg = Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)
+		{2E63019A-E59D-458F-8D5D-C91B608E452D}.Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I).Build.0 = Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)
+		{2E63019A-E59D-458F-8D5D-C91B608E452D}.Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I).Deploy.0 = Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I)
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

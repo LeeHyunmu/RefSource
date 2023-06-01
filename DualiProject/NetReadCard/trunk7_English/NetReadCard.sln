@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetReadCard", "NetReadCard.vcproj", "{388FFE1A-CA86-422F-9A39-0624E25E645C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|IEC266C (ARMV4I) = Debug|IEC266C (ARMV4I)
+		Release|IEC266C (ARMV4I) = Release|IEC266C (ARMV4I)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{388FFE1A-CA86-422F-9A39-0624E25E645C}.Debug|IEC266C (ARMV4I).ActiveCfg = Debug|IEC266C (ARMV4I)
+		{388FFE1A-CA86-422F-9A39-0624E25E645C}.Debug|IEC266C (ARMV4I).Build.0 = Debug|IEC266C (ARMV4I)
+		{388FFE1A-CA86-422F-9A39-0624E25E645C}.Debug|IEC266C (ARMV4I).Deploy.0 = Debug|IEC266C (ARMV4I)
+		{388FFE1A-CA86-422F-9A39-0624E25E645C}.Release|IEC266C (ARMV4I).ActiveCfg = Release|IEC266C (ARMV4I)
+		{388FFE1A-CA86-422F-9A39-0624E25E645C}.Release|IEC266C (ARMV4I).Build.0 = Release|IEC266C (ARMV4I)
+		{388FFE1A-CA86-422F-9A39-0624E25E645C}.Release|IEC266C (ARMV4I).Deploy.0 = Release|IEC266C (ARMV4I)
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

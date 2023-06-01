@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PhoneControl", "PhoneControl.vcproj", "{49690E5E-6DB5-4C60-B6AD-515232B8F18A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|DUALISDK (ARMV4I) = Debug|DUALISDK (ARMV4I)
+		Release|DUALISDK (ARMV4I) = Release|DUALISDK (ARMV4I)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49690E5E-6DB5-4C60-B6AD-515232B8F18A}.Debug|DUALISDK (ARMV4I).ActiveCfg = Debug|DUALISDK (ARMV4I)
+		{49690E5E-6DB5-4C60-B6AD-515232B8F18A}.Debug|DUALISDK (ARMV4I).Build.0 = Debug|DUALISDK (ARMV4I)
+		{49690E5E-6DB5-4C60-B6AD-515232B8F18A}.Debug|DUALISDK (ARMV4I).Deploy.0 = Debug|DUALISDK (ARMV4I)
+		{49690E5E-6DB5-4C60-B6AD-515232B8F18A}.Release|DUALISDK (ARMV4I).ActiveCfg = Release|DUALISDK (ARMV4I)
+		{49690E5E-6DB5-4C60-B6AD-515232B8F18A}.Release|DUALISDK (ARMV4I).Build.0 = Release|DUALISDK (ARMV4I)
+		{49690E5E-6DB5-4C60-B6AD-515232B8F18A}.Release|DUALISDK (ARMV4I).Deploy.0 = Release|DUALISDK (ARMV4I)
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

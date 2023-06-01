@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		{0CD8F069-E8C4-4C31-AFAA-539FB0187C5D} = s 'VMManagerServerDlg'
+		'VMManagerServerDlg.EXE'
+		{
+			val AppID = s {0CD8F069-E8C4-4C31-AFAA-539FB0187C5D}
+		}
+	}
+}
